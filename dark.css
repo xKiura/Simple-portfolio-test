@@ -1,0 +1,38 @@
+:root {
+    --mainColor:#121212;
+    --secondaryColor:#222;
+
+    --borderColor:#222;
+
+    --mainText: #eee;
+    --secondaryText:#eeeeee;
+
+    --themeDotBorder: #fff;
+
+    --previewBg: #222;
+    --previewShadow: #121212;
+
+    --buttonColor: #222;
+}
+
+.corner {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    background-color: #222;
+    position: absolute;
+}
+
+#preview {
+    width: 300px;
+    border: px solid #fff;
+    background-color: var(--previewBg);
+    padding: 40px;
+    position: relative;
+}
+
+.projects {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
